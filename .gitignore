@@ -5,3 +5,5 @@ TestResults/
 .env.*
 *.pfx
 *.key
+.tools/
+.packages/

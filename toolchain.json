@@ -1,0 +1,17 @@
+{
+  "dotnet_sdk": "8.0.421",
+  "dotnet_relative_executable": ".tools/dotnet/dotnet",
+  "nuget_relative_directory": ".packages",
+  "release_metadata": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/8.0/releases.json",
+  "official_archive_url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/8.0.421/dotnet-sdk-8.0.421-linux-x64.tar.gz",
+  "official_archive_sha512": "3bee18a8706f169178a2609cce7d31a4ec3e21ae0758c2387b9a0756dbc267342b60cf00024c76fe91518e49617b241f8ebf1e52cb3fa5644da5966b76589b22",
+  "archive_checksum_note": "official reference checksum for a fresh install; current SDK was independently copied from an existing installation and verified by local tree digests",
+  "sdk_tree": {
+    "sha256": "085946322acf992fe7c96e97cbae89dd0d0dfe44bf04b9fe356f441f84c04841",
+    "files": 4704
+  },
+  "packages_tree": {
+    "sha256": "ac0a84a133c3f3cba28f77e6a1a291db9c63045e0b9eee1b2ae74a489ce70ef5",
+    "files": 1192
+  }
+}
