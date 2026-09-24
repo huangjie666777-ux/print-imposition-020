@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{52ED50E0-285D-48E8-BAA9-5C581657779B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintPlanner.Api", "src\PrintPlanner.Api\PrintPlanner.Api.csproj", "{5F3446B1-68EB-41F7-8840-CF0A4A5009FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2E9EAD34-1BDE-48B6-A420-F8975D2CC981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintPlanner.Tests", "tests\PrintPlanner.Tests\PrintPlanner.Tests.csproj", "{71361F53-54AF-4613-AF6F-6311FE9A510C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F3446B1-68EB-41F7-8840-CF0A4A5009FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3446B1-68EB-41F7-8840-CF0A4A5009FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3446B1-68EB-41F7-8840-CF0A4A5009FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3446B1-68EB-41F7-8840-CF0A4A5009FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71361F53-54AF-4613-AF6F-6311FE9A510C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71361F53-54AF-4613-AF6F-6311FE9A510C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71361F53-54AF-4613-AF6F-6311FE9A510C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71361F53-54AF-4613-AF6F-6311FE9A510C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F3446B1-68EB-41F7-8840-CF0A4A5009FD} = {52ED50E0-285D-48E8-BAA9-5C581657779B}
+		{71361F53-54AF-4613-AF6F-6311FE9A510C} = {2E9EAD34-1BDE-48B6-A420-F8975D2CC981}
+	EndGlobalSection
+EndGlobal
